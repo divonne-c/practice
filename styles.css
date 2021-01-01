@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-family: font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+h3 {
+  padding-bottom: 30px
+}
+
+p {
+  color: #fff;
+}
+
+/* header */
+
+header {
+  background: #DEB57E;
+  padding: 50px;
+  text-align: center;
+}
+
+header h1,
+p {
+  padding: 20px;
+  color: #fff;
+}
+
+header p {
+  font-weight: lighter;
+}
+
+
+/* section-a: colors */
+section {
+  margin: 20px 50px;
+  padding: 30px;
+  text-align: center;
+  border: 2px #f4f4f4 solid;
+}
+
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.color-system p {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.color-system {
+  width: 100%;
+}
+
+.threehouse {background: #452F13;}
+.sandstorm {background: #C48635;}
+.nude {background: #DEB57E;}
+.darkbrown {background: #4A433A;}
+.choco {background: #916327;}
+.caramel {background: #917044;}
+.beige {background: #FFDBAB;}
+.moonblue {background: #367191;}
+.ocean {background: #7EBCDE;}
+.pelican {background: #EBD17A;}
+.sunshine {background: #F5CE7F;}
+.prettypink {background: #F5B17F;}
+.coral {background: #EB997A;}
+
+
+.monchromatic {
+  display: flex;
+}
+.complementary {
+  display: flex;
+}
+.analogous {
+  display: flex;
+}
+
+.system-a {
+  background: #f4f4f4;
+  padding: 30px 50px;
+  padding-bottom: 80px;
+}
+
+.system-b {
+  background: #fff;
+  padding: 30px 50px;
+}
+
+.system-c {
+  background: #f4f4f4;
+  padding: 30px 50px;
+}
+
+
+
+/* section b: fonts */
+
+#fonts {
+  background: #DEB57E;
+  border: none;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+.font-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.font-style {
+  padding: 30px;
+  background: #f4f4f4;
+  margin: 0px 30px;
+  color: #DEB57E;
+}
+
+.font-style p {
+  color: #DEB57E;
+}
+
+.quicksand {font-family: 'Quicksand', sans-serif;}
+.crimsontext {font-family: 'Crimson Text', serif;}
+.assistant {font-family: 'Assistant', sans-serif;}
+
+
+/* Section C: text-styles */
+
+.container-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.text-container {
+  line-height: 1.9;
+}
+
+.text-container li {
+  text-align: left;
+}
+
+.text-container h3 {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+
+.text-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+
+
+#h1 {
+  Font-weight: 900;
+  Font-size: 26px;
+  Font-family: Quicksand;
+  Color: #DEB57E;
+}
+
+#h2 {
+  Font-weight: 600;
+  Font-size: 26px;
+  Font-family: 'Crimson Text', serif;
+  Color: #4A433A;
+}
+
+#h3 {
+  Font-weight: 500;
+  Font-size: 17px;
+  Font-family: 'Assistant', sans-serif;
+  Color: #917044;
+}
+
+#p {
+  Font-weight: 400;
+  Font-size: 16px;
+  Font-family: Quicksand;
+  Color: #4A433A;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #DEB57E;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+
+
+/* utilities */
+
+.border {
+  border: 1px #fff solid;
+}
+
+.color-name {
+  font-size: 14px;
+}
+
+.color-hex {
+  font-size: 12px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #DEB57E;
+  padding-top: 10px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  right: 25%;
+}
+
+.border-right {
+  border-right: 2px solid white;
+  padding-top: 10px;
+  width: 35%;
+}
+
+.border-bottom-light {
+  border-bottom: 1px solid white;
+  padding-top: 10px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  right: 25%;
+}
+
+.dark-text {
+  color: rgba(88, 85, 85, 0.767);
+}
+.light-text {
+  color: white;
+}
+
+span {
+  background: #DEB57E;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
